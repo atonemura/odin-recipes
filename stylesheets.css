@@ -1,0 +1,235 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    font-family: 'Aboreto', cursive;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e9c56a9f;
+}
+
+.title {
+    padding: 40px 40px;
+    text-align: center;
+    color: whitesmoke;
+    background-color: #264653;
+    border: 1px solid #264653;
+    padding: 1em 2em;
+    transition: all 0.25s;
+    cursor: pointer;
+}
+
+.title > h1 {
+    font-size: 90px;
+    font-weight: 900;
+}
+
+.title > p {
+    font-size: medium;
+}
+
+.title:hover, .title:focus {
+    background-color: #2a9d8f;
+    border-color: #2a9d8f;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em rgba(105, 105, 185, 0.2);
+    cursor: pointer;
+}
+
+.main {
+    margin: 50px auto 50px auto;
+    padding: 50px auto 50px auto;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.intro {
+    text-align: center;
+    text-indent: 20px;
+    padding: 20px 10px;
+}
+
+.boodle-fight {
+    width: 65%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+.boodle-image {
+    width: 100%;
+}
+
+.boodle-text {
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 10px 20px 10px 40px;
+}
+
+.recipe-option {
+    display: flex;
+    flex-wrap: wrap;
+    flex: auto;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.header {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+
+a {
+    outline: none;
+    text-decoration: none;
+    gap: 30px;
+    margin-bottom: 50px;
+  }
+  
+  a:link {
+    color: #2a9d8f;
+  }
+  
+  a:visited {
+    color: #e76f51;
+  }
+  
+  a:focus, a:hover {
+    padding: 10px 30px;
+    border-bottom: 1px solid;
+    border-radius: 10px;
+    background: #264653;
+  }
+  
+  a:active {
+    background: #f4a261;
+    color: #cdfeaa;
+  }
+
+
+ul {
+    display: flex;
+    flex: auto;
+}
+
+li {
+    margin: 10px 20px;
+    gap: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.adobo, .sinigang, .lechon {
+    gap: 30px;
+    border-radius: 90%;
+}
+
+.adobo {
+    width: 90%;
+    height: 95%;
+}
+
+.quote {
+    margin: 100px auto;
+    padding: 50px 30px;
+    text-align: center;
+    font-size: 30px;
+    background-color: #f4a3619c;
+}
+
+.business {
+    margin: 100px 30px;
+    padding: 50px 40px;
+    background-color: #e76f51;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    justify-content: space-around;
+}
+
+.one {
+    font-size: xx-large;
+    font-weight: 800;
+    color: #e4eaec;
+}
+
+.two {
+    font-size: medium;
+    font-style: italic;
+    color: whitesmoke;
+}
+
+button {
+    padding: 15px 30px;
+    background-color: #2a9d8f;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+button:hover {
+    background-color:#264653;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+
+.footer {
+    background-color: #264653;
+    text-align: center;
+    margin: 100px auto 0 auto;
+    padding: 40px;
+    font-size: 30px;
+}
+
+.footer > h2 {
+    font-size: 10px;
+}
