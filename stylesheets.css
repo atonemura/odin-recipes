@@ -1,44 +1,130 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
 }
 
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 * {
@@ -61,16 +147,17 @@ body {
     cursor: pointer;
 }
 
-.title > h1 {
+.title>h1 {
     font-size: 90px;
     font-weight: 900;
 }
 
-.title > p {
+.title>p {
     font-size: medium;
 }
 
-.title:hover, .title:focus {
+.title:hover,
+.title:focus {
     background-color: #2a9d8f;
     border-color: #2a9d8f;
     color: white;
@@ -111,7 +198,8 @@ body {
     padding: 10px 20px 10px 40px;
 }
 
-.boodle-fight:hover, .boodle-fight:focus {
+.boodle-fight:hover,
+.boodle-fight:focus {
     border: 2px solid white;
     box-shadow: 0 4px 8px 0 rgba(51, 50, 50, 0.979), 0 6px 20px 0 rgba(36, 35, 35, 0.966);
 }
@@ -139,25 +227,32 @@ body {
     align-items: flex-end;
 }
 
-.adobo, .sinigang, .lechon {
+.adobo,
+.sinigang,
+.lechon {
     padding: 20px 10px;
     margin: 20px;
 }
 
-.adobo:focus, .sinigang:focus, .lechon:focus,
-.adobo:hover, .sinigang:hover, .lechon:hover {
-    padding 40px;
+.adobo:focus,
+.sinigang:focus,
+.lechon:focus,
+.adobo:hover,
+.sinigang:hover,
+.lechon:hover {
+    padding: 40px;
     border: 2px solid;
     color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: #264653ab;
-
+    background-color: #264653;
 }
 
-.adobo-img, .sinigang-img, .lechon-img {
+.adobo-img,
+.sinigang-img,
+.lechon-img {
     border-radius: 90%;
     float: left;
-    width:  350px;
+    width: 350px;
     height: 350px;
     object-fit: cover;
     margin-bottom: 20px;
@@ -168,29 +263,25 @@ a {
     outline: none;
     text-decoration: none;
     text-align: center;
-  }
-  
-  a:link {
+}
+
+a:link {
     color: #2a9d8f;
-  }
-  
-  a:visited {
+}
+
+a:visited {
     color: #e76f51;
-  }
-  
-  
-  a:active {
+}
+
+
+a:active {
     background: #f4a261;
     color: #cdfeaa;
-  }
+}
 
-  a:hover {
+a:hover {
     color: #e4eaec;
-  }
-
-
-
-
+}
 
 
 
@@ -234,7 +325,7 @@ button {
 }
 
 button:hover {
-    background-color:#264653;
+    background-color: #264653;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transform: translateY(-0.25em);
     cursor: pointer;
@@ -249,11 +340,12 @@ button:hover {
     font-size: 30px;
 }
 
-.footer > h2 {
+.footer>h2 {
     font-size: 10px;
 }
 
-.footer:hover, .footer:focus {
+.footer:hover,
+.footer:focus {
     background-color: #2a9d8f;
     border-color: #2a9d8f;
     color: white;
